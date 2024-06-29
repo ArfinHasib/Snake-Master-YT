@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #020323;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    border-radius: 10px;
+}
+
+.score_container {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0;
+    color: #00b35a;
+    font-weight: 600;
+}
+
+#restart_game {
+    margin: 0 auto;
+    display: block;
+    padding: 9px 15px;
+    background: #fff;
+    color: #171717;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game {
+    height: 275px;
+    width: 275px;
+    background-color: #e0e0e0;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.tile {
+    font-size: 16px;
+    float: left;
+    margin: 0;
+    content: '';
+    background: #e0e0e0;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    box-shadow: inset 0px 0px 0px 1px rgba(0, 134, 255, 0.05);
+}
+
+.body {
+    background: #bdbdbd;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+
+.head {
+    background: #000;
+}
+
+.fruit {
+    background: #00b35a;
+    border-radius: 5px;
+}
+
+.instructions {
+    font-size: 16px;
+    color: #9c9c9c;
+    padding-bottom: 20px;
+    text-align: center;
+}
